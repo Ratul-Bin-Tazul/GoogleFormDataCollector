@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.drbt.googleformdatacollector.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input data"
+        android:textColor="#fff"
+        android:background="#512DA8"
+        android:layout_margin="10dp"
+        android:id="@+id/inputBtn"
+        android:onClick="goToInput"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#512DA8"
+        android:layout_margin="10dp"
+        android:text="view report"
+        android:id="@+id/reportBtn"
+        android:onClick="goToReport"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#512DA8"
+        android:layout_margin="10dp"
+        android:text="exit"
+        android:id="@+id/exitBtn"
+        android:onClick="exitActivity"/>
+
+    </LinearLayout>
+</RelativeLayout>
